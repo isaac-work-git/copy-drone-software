@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'seekcamera_publisher'
+gmake[2]: *** [CMakeFiles/seekcamera_publisher.dir/build.make:185: seekcamera_publisher] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/seekcamera_publisher.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

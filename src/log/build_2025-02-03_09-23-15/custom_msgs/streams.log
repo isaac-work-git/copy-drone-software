@@ -1,0 +1,29 @@
+[0.018s] Invoking command in '/home/username/ros2_ws/src/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/install/odometry_pkg:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/custom_msgs
+[0.491s] -- The C compiler identification is GNU 13.3.0
+[0.877s] -- The CXX compiler identification is GNU 13.3.0
+[0.908s] -- Detecting C compiler ABI info
+[1.081s] -- Detecting C compiler ABI info - done
+[1.098s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.098s] -- Detecting C compile features
+[1.099s] -- Detecting C compile features - done
+[1.114s] -- Detecting CXX compiler ABI info
+[1.312s] -- Detecting CXX compiler ABI info - done
+[1.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.341s] -- Detecting CXX compile features
+[1.341s] -- Detecting CXX compile features - done
+[1.348s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.596s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.771s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.936s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.496s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[2.496s]   Packages installing interfaces must include
+[2.496s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[2.496s]   package.xml
+[2.496s] Call Stack (most recent call first):
+[2.496s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.496s] 
+[2.496s] [0m
+[2.496s] -- Configuring incomplete, errors occurred!
+[2.509s] Invoked command in '/home/username/ros2_ws/src/build/custom_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/install/odometry_pkg:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/custom_msgs

@@ -1,0 +1,4 @@
+source;share/img_capture/local_setup.bash
+source;share/img_capture/local_setup.dsv
+source;share/img_capture/local_setup.sh
+source;share/img_capture/local_setup.zsh

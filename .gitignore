@@ -1,0 +1,31 @@
+# ROS2 workspace artifacts
+/build/
+/install/
+/log/
+/**/build/
+/**/install/
+/**/log/
+/build/**/*
+/install/**/*
+/log/**/*
+/flight_logs/
+
+# IDE and config files
+.vscode/
+.idea/
+.config/
+
+# Temporary files
+.ros/
+.colcon/
+*.swp
+*.suo
+
+# Generated files
+src/**/build/
+src/**/action/
+
+src/px4_ros_com/scripts/__pycache__
+# sim_data
+sim_data/video_matrix16.npy
+*/video_matrix16.npy

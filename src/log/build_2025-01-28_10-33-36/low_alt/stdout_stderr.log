@@ -1,0 +1,21 @@
+[ 50%] [32m[1mLinking CXX executable seekcamera_publisher[0m
+[100%] Built target seekcamera_publisher
+-- Install configuration: ""
+-- Installing: /home/username/ros2_ws/src/install/low_alt/lib/low_alt/seekcamera_publisher
+-- Set non-toolchain portion of runtime path of "/home/username/ros2_ws/src/install/low_alt/lib/low_alt/seekcamera_publisher" to ""
+-- Installing: /home/username/ros2_ws/src/install/low_alt/lib/low_alt/thermal_subscriber.py
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/ament_index/resource_index/package_run_dependencies/low_alt
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/ament_index/resource_index/parent_prefix_path/low_alt
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/ament_prefix_path.sh
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/ament_prefix_path.dsv
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/path.sh
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/path.dsv
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.bash
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.sh
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.zsh
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.dsv
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/package.dsv
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/ament_index/resource_index/packages/low_alt
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/cmake/low_altConfig.cmake
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/cmake/low_altConfig-version.cmake
+-- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/package.xml

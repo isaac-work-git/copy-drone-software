@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.000357] (img_capture) JobQueued: {'identifier': 'img_capture', 'dependencies': OrderedDict()}
+[0.000403] (low_alt) JobQueued: {'identifier': 'low_alt', 'dependencies': OrderedDict()}
+[0.000426] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000454] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict({'px4_msgs': '/home/username/ros2_ws/src/install/px4_msgs'})}
+[0.000745] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.010012] (img_capture) JobStarted: {'identifier': 'img_capture'}
+[0.014792] (low_alt) JobStarted: {'identifier': 'low_alt'}
+[0.021367] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.021946] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/username/ros2_ws/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/px4_msgs'], 'cwd': '/home/username/ros2_ws/src/build/px4_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'username', 'SSH_CLIENT': '10.37.197.118 59746 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/username/ros2_ws/install/px4_ros_com/lib:/home/username/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/username', 'OLDPWD': '/home/username/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '-j4', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/username/ros2_ws/install:/home/username/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'username', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/username/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/username/ros2_ws/src/build/px4_msgs', 'SSH_CONNECTION': '10.37.197.118 59746 10.2.118.167 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/username/ros2_ws/src/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/build/odometry_publisher:/home/username/ros2_ws/build/detection:/home/username/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/username/ros2_ws/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/install/detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy'}), 'shell': False}
+[0.025682] (img_capture) JobProgress: {'identifier': 'img_capture', 'progress': 'cmake'}
+[0.026230] (img_capture) Command: {'cmd': ['/usr/bin/cmake', '/home/username/ros2_ws/src/img_capture', '-DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/img_capture'], 'cwd': '/home/username/ros2_ws/src/build/img_capture', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'username', 'SSH_CLIENT': '10.37.197.118 59746 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/username/ros2_ws/install/px4_ros_com/lib:/home/username/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/username', 'OLDPWD': '/home/username/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '-j4', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/username/ros2_ws/install:/home/username/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'username', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/username/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/username/ros2_ws/src/build/img_capture', 'SSH_CONNECTION': '10.37.197.118 59746 10.2.118.167 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/username/ros2_ws/src/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/build/odometry_publisher:/home/username/ros2_ws/build/detection:/home/username/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/username/ros2_ws/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/install/detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy'}), 'shell': False}
+[0.031666] (low_alt) JobProgress: {'identifier': 'low_alt', 'progress': 'cmake'}
+[0.032471] (low_alt) Command: {'cmd': ['/usr/bin/cmake', '/home/username/ros2_ws/src/low_alt', '-DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/low_alt'], 'cwd': '/home/username/ros2_ws/src/build/low_alt', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'username', 'SSH_CLIENT': '10.37.197.118 59746 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/username/ros2_ws/install/px4_ros_com/lib:/home/username/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/username', 'OLDPWD': '/home/username/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '-j4', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/username/ros2_ws/install:/home/username/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'username', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/username/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/username/ros2_ws/src/build/low_alt', 'SSH_CONNECTION': '10.37.197.118 59746 10.2.118.167 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/username/ros2_ws/src/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/build/odometry_publisher:/home/username/ros2_ws/build/detection:/home/username/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/username/ros2_ws/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/install/detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy'}), 'shell': False}
+[0.099767] (-) TimerEvent: {}
+[0.163812] (img_capture) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.164191] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.170967] (low_alt) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.200019] (-) TimerEvent: {}
+[0.300572] (-) TimerEvent: {}
+[0.303915] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.304527] (img_capture) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.309433] (low_alt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.331644] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.332103] (img_capture) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.338534] (low_alt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400734] (-) TimerEvent: {}
+[0.501376] (-) TimerEvent: {}
+[0.526837] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.527240] (img_capture) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.540056] (low_alt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.541261] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.541523] (img_capture) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.541722] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.541905] (img_capture) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.542268] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.542529] (img_capture) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.554884] (low_alt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.555222] (low_alt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.555779] (low_alt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.556300] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.556575] (img_capture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.571653] (low_alt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601512] (-) TimerEvent: {}
+[0.702023] (-) TimerEvent: {}
+[0.774504] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.776691] (img_capture) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.787914] (low_alt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.789309] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.789773] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.790478] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.791794] (img_capture) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.792196] (img_capture) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.792913] (img_capture) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.793870] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.796136] (img_capture) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.802130] (-) TimerEvent: {}
+[0.802952] (low_alt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.803416] (low_alt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.804169] (low_alt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.807793] (low_alt) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.902284] (-) TimerEvent: {}
+[1.002860] (-) TimerEvent: {}
+[1.096323] (img_capture) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.096960] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.102997] (-) TimerEvent: {}
+[1.122233] (low_alt) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.203111] (-) TimerEvent: {}
+[1.303522] (-) TimerEvent: {}
+[1.306851] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[1.307488] (img_capture) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.327720] (low_alt) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.349297] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.355403] (img_capture) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.368331] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.374418] (img_capture) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.375126] (low_alt) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.390379] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.394093] (low_alt) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.396957] (img_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403604] (-) TimerEvent: {}
+[1.415797] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.416787] (low_alt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.422802] (img_capture) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.438716] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.442574] (low_alt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.458300] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.503709] (-) TimerEvent: {}
+[1.529577] (img_capture) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.533007] (img_capture) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.549328] (low_alt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.553875] (low_alt) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.606114] (-) TimerEvent: {}
+[1.678664] (img_capture) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.704644] (low_alt) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.704908] (img_capture) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.707552] (-) TimerEvent: {}
+[1.728590] (low_alt) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.744036] (img_capture) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.768637] (low_alt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.807655] (-) TimerEvent: {}
+[1.849797] (img_capture) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.870865] (low_alt) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.907764] (-) TimerEvent: {}
+[2.009527] (-) TimerEvent: {}
+[2.109883] (-) TimerEvent: {}
+[2.118281] (img_capture) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.141306] (low_alt) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.141666] (img_capture) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.145639] (img_capture) StdoutLine: {'line': b'-- Build files have been written to: /home/username/ros2_ws/src/build/img_capture\n'}
+[2.163295] (low_alt) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.169085] (img_capture) CommandEnded: {'returncode': 0}
+[2.169610] (img_capture) JobProgress: {'identifier': 'img_capture', 'progress': 'build'}
+[2.169649] (img_capture) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/username/ros2_ws/src/build/img_capture'], 'cwd': '/home/username/ros2_ws/src/build/img_capture', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'username', 'SSH_CLIENT': '10.37.197.118 59746 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/username/ros2_ws/install/px4_ros_com/lib:/home/username/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/username', 'OLDPWD': '/home/username/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '-j4', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/username/ros2_ws/install:/home/username/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'username', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/username/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/username/ros2_ws/src/build/img_capture', 'SSH_CONNECTION': '10.37.197.118 59746 10.2.118.167 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/username/ros2_ws/src/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/build/odometry_publisher:/home/username/ros2_ws/build/detection:/home/username/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/username/ros2_ws/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/install/detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy'}), 'shell': False}
+[2.170116] (low_alt) StdoutLine: {'line': b'-- Build files have been written to: /home/username/ros2_ws/src/build/low_alt\n'}
+[2.191997] (low_alt) CommandEnded: {'returncode': 0}
+[2.192776] (low_alt) JobProgress: {'identifier': 'low_alt', 'progress': 'build'}
+[2.193097] (low_alt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/username/ros2_ws/src/build/low_alt'], 'cwd': '/home/username/ros2_ws/src/build/low_alt', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'username', 'SSH_CLIENT': '10.37.197.118 59746 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/username/ros2_ws/install/px4_ros_com/lib:/home/username/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/username', 'OLDPWD': '/home/username/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '-j4', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/username/ros2_ws/install:/home/username/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'username', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/username/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/username/ros2_ws/src/build/low_alt', 'SSH_CONNECTION': '10.37.197.118 59746 10.2.118.167 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/username/ros2_ws/src/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/build/odometry_publisher:/home/username/ros2_ws/build/detection:/home/username/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/username/ros2_ws/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/install/detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy'}), 'shell': False}
+[2.210027] (-) TimerEvent: {}
+[2.262335] (img_capture) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/seekcamera_publisher.dir/src/seekcamera_publisher.cpp.o\x1b[0m\n'}
+[2.282034] (low_alt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/seekcamera_publisher.dir/src/seekcamera_publisher.cpp.o\x1b[0m\n'}
+[2.310140] (-) TimerEvent: {}
+[2.410555] (-) TimerEvent: {}
+[2.510950] (-) TimerEvent: {}
+[2.611433] (-) TimerEvent: {}
+[2.711800] (-) TimerEvent: {}
+[2.812257] (-) TimerEvent: {}
+[2.914113] (-) TimerEvent: {}
+[3.014586] (-) TimerEvent: {}
+[3.115040] (-) TimerEvent: {}
+[3.215634] (-) TimerEvent: {}
+[3.316027] (-) TimerEvent: {}
+[3.416415] (-) TimerEvent: {}
+[3.516840] (-) TimerEvent: {}
+[3.617487] (-) TimerEvent: {}
+[3.717879] (-) TimerEvent: {}
+[3.818527] (-) TimerEvent: {}
+[3.919007] (-) TimerEvent: {}
+[4.019569] (-) TimerEvent: {}
+[4.119988] (-) TimerEvent: {}
+[4.220405] (-) TimerEvent: {}
+[4.320866] (-) TimerEvent: {}
+[4.422548] (-) TimerEvent: {}
+[4.523002] (-) TimerEvent: {}
+[4.623525] (-) TimerEvent: {}
+[4.725568] (-) TimerEvent: {}
+[4.745645] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)\n'}
+[4.749793] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[4.755546] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[4.761648] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[4.825707] (-) TimerEvent: {}
+[4.926194] (-) TimerEvent: {}
+[5.026740] (-) TimerEvent: {}
+[5.127431] (-) TimerEvent: {}
+[5.229580] (-) TimerEvent: {}
+[5.330321] (-) TimerEvent: {}
+[5.431557] (-) TimerEvent: {}
+[5.532006] (-) TimerEvent: {}
+[5.632433] (-) TimerEvent: {}
+[5.732873] (-) TimerEvent: {}
+[5.833329] (-) TimerEvent: {}
+[5.933823] (-) TimerEvent: {}
+[6.034277] (-) TimerEvent: {}
+[6.136554] (-) TimerEvent: {}
+[6.237038] (-) TimerEvent: {}
+[6.337887] (-) TimerEvent: {}
+[6.438393] (-) TimerEvent: {}
+[6.446853] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.538572] (-) TimerEvent: {}
+[6.639124] (-) TimerEvent: {}
+[6.739587] (-) TimerEvent: {}
+[6.842555] (-) TimerEvent: {}
+[6.943037] (-) TimerEvent: {}
+[7.043563] (-) TimerEvent: {}
+[7.144086] (-) TimerEvent: {}
+[7.163166] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.182661] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[7.244249] (-) TimerEvent: {}
+[7.344877] (-) TimerEvent: {}
+[7.445607] (-) TimerEvent: {}
+[7.490463] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[7.545751] (-) TimerEvent: {}
+[7.646698] (-) TimerEvent: {}
+[7.747216] (-) TimerEvent: {}
+[7.847874] (-) TimerEvent: {}
+[7.948382] (-) TimerEvent: {}
+[8.048947] (-) TimerEvent: {}
+[8.149391] (-) TimerEvent: {}
+[8.250111] (-) TimerEvent: {}
+[8.350772] (-) TimerEvent: {}
+[8.451416] (-) TimerEvent: {}
+[8.552062] (-) TimerEvent: {}
+[8.559717] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[8.652196] (-) TimerEvent: {}
+[8.733958] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)\n'}
+[8.739208] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)\n'}
+[8.753512] (-) TimerEvent: {}
+[8.772054] (px4_msgs) StdoutLine: {'line': b'-- Configuring done (8.7s)\n'}
+[8.853659] (-) TimerEvent: {}
+[8.954591] (-) TimerEvent: {}
+[9.055149] (-) TimerEvent: {}
+[9.155682] (-) TimerEvent: {}
+[9.256197] (-) TimerEvent: {}
+[9.356701] (-) TimerEvent: {}
+[9.457430] (-) TimerEvent: {}
+[9.557939] (-) TimerEvent: {}
+[9.658700] (-) TimerEvent: {}
+[9.759168] (-) TimerEvent: {}
+[9.859941] (-) TimerEvent: {}
+[9.919559] (px4_msgs) StdoutLine: {'line': b'-- Generating done (0.9s)\n'}
+[9.960106] (-) TimerEvent: {}
+[10.042329] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/username/ros2_ws/src/build/px4_msgs\n'}
+[10.060345] (-) TimerEvent: {}
+[10.120872] (px4_msgs) CommandEnded: {'returncode': 0}
+[10.121637] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[10.121692] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/username/ros2_ws/src/build/px4_msgs'], 'cwd': '/home/username/ros2_ws/src/build/px4_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'username', 'SSH_CLIENT': '10.37.197.118 59746 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/username/ros2_ws/install/px4_ros_com/lib:/home/username/ros2_ws/install/px4_msgs/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/lib', 'HOME': '/home/username', 'OLDPWD': '/home/username/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'MAKEFLAGS': '-j4', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/username/ros2_ws/install:/home/username/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'username', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'PATH': '/home/username/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/detection:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/username/ros2_ws/src/build/px4_msgs', 'SSH_CONNECTION': '10.37.197.118 59746 10.2.118.167 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/username/ros2_ws/src/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/build/odometry_publisher:/home/username/ros2_ws/build/detection:/home/username/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/username/ros2_ws/install/odometry_publisher/lib/python3.12/site-packages:/home/username/ros2_ws/install/detection/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/username/ros2_ws/src/install/odometry_publisher_c:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy'}), 'shell': False}
+[10.160515] (-) TimerEvent: {}
+[10.261044] (-) TimerEvent: {}
+[10.361638] (-) TimerEvent: {}
+[10.462321] (-) TimerEvent: {}
+[10.563323] (-) TimerEvent: {}
+[10.593222] (low_alt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable seekcamera_publisher\x1b[0m\n'}
+[10.664600] (-) TimerEvent: {}
+[10.669677] (img_capture) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable seekcamera_publisher\x1b[0m\n'}
+[10.764770] (-) TimerEvent: {}
+[10.865540] (-) TimerEvent: {}
+[10.969034] (-) TimerEvent: {}
+[11.069838] (-) TimerEvent: {}
+[11.153050] (img_capture) StderrLine: {'line': b"gmake[2]: *** Deleting file 'seekcamera_publisher'\n"}
+[11.153586] (low_alt) StderrLine: {'line': b"gmake[2]: *** Deleting file 'seekcamera_publisher'\n"}
+[11.156234] (low_alt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/seekcamera_publisher.dir/build.make:185: seekcamera_publisher] Interrupt\n'}
+[11.157788] (img_capture) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/seekcamera_publisher.dir/build.make:185: seekcamera_publisher] Interrupt\n'}
+[11.158085] (low_alt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/seekcamera_publisher.dir/all] Interrupt\n'}
+[11.158222] (img_capture) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/seekcamera_publisher.dir/all] Interrupt\n'}
+[11.158329] (low_alt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[11.161294] (img_capture) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[11.161766] (px4_msgs) CommandEnded: {'returncode': -2}
+[11.170077] (-) TimerEvent: {}
+[11.171568] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[11.173118] (low_alt) JobEnded: {'identifier': 'low_alt', 'rc': 'SIGINT'}
+[11.173688] (img_capture) JobEnded: {'identifier': 'img_capture', 'rc': 'SIGINT'}
+[11.183587] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[11.183711] (-) EventReactorShutdown: {}

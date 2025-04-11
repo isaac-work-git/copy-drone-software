@@ -1,0 +1,27 @@
+[0.021s] Invoking command in '/home/username/ros2_ws/src/build/img_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/img_capture
+[0.133s] [ 50%] [32m[1mLinking CXX executable seekcamera_publisher[0m
+[0.867s] [100%] Built target seekcamera_publisher
+[0.900s] Invoked command in '/home/username/ros2_ws/src/build/img_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/img_capture
+[0.902s] Invoking command in '/home/username/ros2_ws/src/build/img_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --install /home/username/ros2_ws/src/build/img_capture
+[0.920s] -- Install configuration: ""
+[0.920s] -- Installing: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/seekcamera_publisher
+[0.923s] -- Set non-toolchain portion of runtime path of "/home/username/ros2_ws/src/install/img_capture/lib/img_capture/seekcamera_publisher" to ""
+[0.924s] -- Installing: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/thermal_subscriber.py
+[0.924s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/package_run_dependencies/img_capture
+[0.925s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/parent_prefix_path/img_capture
+[0.925s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/ament_prefix_path.sh
+[0.925s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/ament_prefix_path.dsv
+[0.926s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/path.sh
+[0.926s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/path.dsv
+[0.926s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.bash
+[0.927s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.sh
+[0.927s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.zsh
+[0.928s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.dsv
+[0.929s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/package.dsv
+[0.929s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/packages/img_capture
+[0.929s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/cmake/img_captureConfig.cmake
+[0.930s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/cmake/img_captureConfig-version.cmake
+[0.930s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/package.xml
+[0.930s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture//launch
+[0.931s] -- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture//launch/img_capture.launch.py
+[0.959s] Invoked command in '/home/username/ros2_ws/src/build/img_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --install /home/username/ros2_ws/src/build/img_capture

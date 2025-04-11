@@ -1,0 +1,25 @@
+[0.024s] Invoking command in '/home/username/ros2_ws/src/build/low_alt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/low_alt
+[0.133s] [ 50%] [32m[1mLinking CXX executable seekcamera_publisher[0m
+[0.824s] [100%] Built target seekcamera_publisher
+[0.872s] Invoked command in '/home/username/ros2_ws/src/build/low_alt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/low_alt
+[0.891s] Invoking command in '/home/username/ros2_ws/src/build/low_alt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --install /home/username/ros2_ws/src/build/low_alt
+[0.908s] -- Install configuration: ""
+[0.908s] -- Installing: /home/username/ros2_ws/src/install/low_alt/lib/low_alt/seekcamera_publisher
+[0.911s] -- Set non-toolchain portion of runtime path of "/home/username/ros2_ws/src/install/low_alt/lib/low_alt/seekcamera_publisher" to ""
+[0.912s] -- Installing: /home/username/ros2_ws/src/install/low_alt/lib/low_alt/thermal_subscriber.py
+[0.912s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/ament_index/resource_index/package_run_dependencies/low_alt
+[0.912s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/ament_index/resource_index/parent_prefix_path/low_alt
+[0.913s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/ament_prefix_path.sh
+[0.913s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/ament_prefix_path.dsv
+[0.913s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/path.sh
+[0.914s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/environment/path.dsv
+[0.914s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.bash
+[0.914s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.sh
+[0.914s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.zsh
+[0.915s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/local_setup.dsv
+[0.916s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/package.dsv
+[0.916s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/ament_index/resource_index/packages/low_alt
+[0.916s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/cmake/low_altConfig.cmake
+[0.917s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/cmake/low_altConfig-version.cmake
+[0.917s] -- Installing: /home/username/ros2_ws/src/install/low_alt/share/low_alt/package.xml
+[0.923s] Invoked command in '/home/username/ros2_ws/src/build/low_alt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --install /home/username/ros2_ws/src/build/low_alt

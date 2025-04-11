@@ -1,0 +1,190 @@
+[0.140s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.141s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8c81fd70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c9b06e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c9b06e0>>, mixin_verb=('build',))
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.197s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/username/ros2_ws/src'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(img_capture) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'img_capture' with type 'ros.ament_cmake' and name 'img_capture'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(low_alt) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'low_alt' with type 'ros.ament_cmake' and name 'low_alt'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(px4_msgs) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(px4_ros_com) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.269s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/username/ros2_ws/src/install/odometry_publisher_c' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.270s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/username/ros2_ws/src/install/odometry_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.270s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/username/ros2_ws/src/install/low_alt' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.270s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/username/ros2_ws/src/install/img_capture' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.270s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/username/ros2_ws/src/install/odometry_publisher_c' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.270s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/username/ros2_ws/src/install/low_alt' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.270s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/username/ros2_ws/src/install/img_capture' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.271s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/username/ros2_ws/install
+[0.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/username/ros2_ws/src/install
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 192 installed packages in /opt/ros/jazzy
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'img_capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'img_capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/username/ros2_ws/src/build/img_capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/username/ros2_ws/src/install/img_capture', 'merge_install': False, 'path': '/home/username/ros2_ws/src/img_capture', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'low_alt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'low_alt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/username/ros2_ws/src/build/low_alt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/username/ros2_ws/src/install/low_alt', 'merge_install': False, 'path': '/home/username/ros2_ws/src/low_alt', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/username/ros2_ws/src/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/username/ros2_ws/src/install/px4_msgs', 'merge_install': False, 'path': '/home/username/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/username/ros2_ws/src/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/username/ros2_ws/src/install/px4_ros_com', 'merge_install': False, 'path': '/home/username/ros2_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/username/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/username/ros2_ws/src/px4_msgs'
+[0.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/username/ros2_ws/src/img_capture' with build type 'ament_cmake'
+[0.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/username/ros2_ws/src/img_capture'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/username/ros2_ws/src/low_alt' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/username/ros2_ws/src/low_alt'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/username/ros2_ws/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/px4_msgs
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/username/ros2_ws/src/build/img_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/img_capture -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/img_capture
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/username/ros2_ws/src/build/low_alt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/low_alt -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/low_alt
+[2.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/username/ros2_ws/src/build/img_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/img_capture -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/img_capture
+[2.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/username/ros2_ws/src/build/img_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/img_capture
+[2.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/username/ros2_ws/src/build/low_alt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/low_alt -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/low_alt
+[2.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/username/ros2_ws/src/build/low_alt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/low_alt
+[10.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/username/ros2_ws/src/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake /home/username/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/px4_msgs
+[10.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/username/ros2_ws/src/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/px4_msgs
+[11.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[11.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[11.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[11.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/username/ros2_ws/src/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/username/ros2_ws/src/install/odometry_publisher:/home/username/ros2_ws/install/odometry_publisher:/home/username/ros2_ws/install/detection:/opt/ros/jazzy /usr/bin/cmake --build /home/username/ros2_ws/src/build/px4_msgs
+[11.480s] Level 1:colcon.colcon_core.environment:checking '/home/username/ros2_ws/src/install/px4_msgs' for CMake module files
+[11.481s] Level 1:colcon.colcon_core.environment:checking '/home/username/ros2_ws/src/install/px4_msgs' for CMake config files
+[11.481s] Level 1:colcon.colcon_core.environment:checking '/home/username/ros2_ws/src/install/px4_msgs/bin'
+[11.481s] Level 1:colcon.colcon_core.environment:checking '/home/username/ros2_ws/src/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[11.481s] Level 1:colcon.colcon_core.environment:checking '/home/username/ros2_ws/src/install/px4_msgs/lib/python3.12/site-packages'
+[11.482s] Level 1:colcon.colcon_core.environment:checking '/home/username/ros2_ws/src/install/px4_msgs/bin'
+[11.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/username/ros2_ws/src/install/px4_msgs/share/px4_msgs/package.ps1'
+[11.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/username/ros2_ws/src/install/px4_msgs/share/px4_msgs/package.dsv'
+[11.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/username/ros2_ws/src/install/px4_msgs/share/px4_msgs/package.sh'
+[11.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/username/ros2_ws/src/install/px4_msgs/share/px4_msgs/package.bash'
+[11.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/username/ros2_ws/src/install/px4_msgs/share/px4_msgs/package.zsh'
+[11.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/username/ros2_ws/src/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[11.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[11.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.498s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.509s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.510s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.511s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/username/ros2_ws/src/install/local_setup.ps1'
+[11.512s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/username/ros2_ws/src/install/_local_setup_util_ps1.py'
+[11.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/username/ros2_ws/src/install/setup.ps1'
+[11.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/username/ros2_ws/src/install/local_setup.sh'
+[11.516s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/username/ros2_ws/src/install/_local_setup_util_sh.py'
+[11.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/username/ros2_ws/src/install/setup.sh'
+[11.518s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/username/ros2_ws/src/install/local_setup.bash'
+[11.519s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/username/ros2_ws/src/install/setup.bash'
+[11.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/username/ros2_ws/src/install/local_setup.zsh'
+[11.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/username/ros2_ws/src/install/setup.zsh'

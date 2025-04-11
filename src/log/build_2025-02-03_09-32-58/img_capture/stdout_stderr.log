@@ -1,0 +1,27 @@
+[100%] Built target seekcamera_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/seekcamera_publisher
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/flight_logger.py
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/odometry_publisher.py
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/live_feedback.py
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/high_alt_filter.py
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/low_alt_filter.py
+-- Installing: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/sim_odometry_publisher.py
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/sim_seekcamera_publisher.py
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/package_run_dependencies/img_capture
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/parent_prefix_path/img_capture
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/ament_prefix_path.sh
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/path.sh
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/path.dsv
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.bash
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.sh
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.zsh
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.dsv
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/package.dsv
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/packages/img_capture
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/cmake/img_captureConfig.cmake
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/cmake/img_captureConfig-version.cmake
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture/package.xml
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture//launch
+-- Up-to-date: /home/username/ros2_ws/src/install/img_capture/share/img_capture//launch/img_capture.launch.py

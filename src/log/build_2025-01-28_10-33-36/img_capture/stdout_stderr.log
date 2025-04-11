@@ -1,0 +1,23 @@
+[ 50%] [32m[1mLinking CXX executable seekcamera_publisher[0m
+[100%] Built target seekcamera_publisher
+-- Install configuration: ""
+-- Installing: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/seekcamera_publisher
+-- Set non-toolchain portion of runtime path of "/home/username/ros2_ws/src/install/img_capture/lib/img_capture/seekcamera_publisher" to ""
+-- Installing: /home/username/ros2_ws/src/install/img_capture/lib/img_capture/thermal_subscriber.py
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/package_run_dependencies/img_capture
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/parent_prefix_path/img_capture
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/ament_prefix_path.sh
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/ament_prefix_path.dsv
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/path.sh
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/environment/path.dsv
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.bash
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.sh
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.zsh
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/local_setup.dsv
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/package.dsv
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/ament_index/resource_index/packages/img_capture
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/cmake/img_captureConfig.cmake
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/cmake/img_captureConfig-version.cmake
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture/package.xml
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture//launch
+-- Installing: /home/username/ros2_ws/src/install/img_capture/share/img_capture//launch/img_capture.launch.py

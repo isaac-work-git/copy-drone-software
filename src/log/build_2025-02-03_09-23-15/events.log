@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'img_capture'}
+[0.000531] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000847] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.001038] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.001299] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.017467] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.018318] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/username/ros2_ws/src/custom_msgs', '-DCMAKE_INSTALL_PREFIX=/home/username/ros2_ws/src/install/custom_msgs'], 'cwd': '/home/username/ros2_ws/src/build/custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'username', 'SSH_CLIENT': '10.37.197.118 50064 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/username/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/username/ros2_ws/install/px4_ros_com/lib:/home/username/ros2_ws/install/px4_msgs/lib:/home/username/ros2_ws/src/install/px4_ros_com/lib:/home/username/ros2_ws/src/install/px4_msgs/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib:/usr/local/lib:/usr/local/lib', 'BROWSER': '/home/username/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'HOME': '/home/username', 'OLDPWD': '/home/username/ros2_ws', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-03c7bdfc-6012-4b49-898c-18114c93d4ec.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/username/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/username/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/username/ros2_ws/install:/home/username/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'username', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/home/username/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/home/username/.local/bin:/opt/ros/jazzy/bin:/home/username/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-024dd59f92.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/username/ros2_ws/install/odometry_pkg:/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/src/install/px4_ros_com:/home/username/ros2_ws/src/install/px4_msgs:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/username/ros2_ws/src/build/custom_msgs', 'SSH_CONNECTION': '10.37.197.118 50064 10.2.118.167 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/username/ros2_ws/install/odometry_pkg/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/install/px4_msgs/lib/python3.12/site-packages:/home/username/ros2_ws/src/install/px4_ros_com/lib/python3.12/site-packages:/home/username/ros2_ws/src/install/px4_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/username/ros2_ws/install/px4_ros_com:/home/username/ros2_ws/install/img_capture:/home/username/ros2_ws/install/px4_msgs:/home/username/ros2_ws/install/low_alt:/home/username/ros2_ws/src/install/px4_ros_com:/home/username/ros2_ws/src/install/px4_msgs:/home/username/ros2_ws/src/install/low_alt:/home/username/ros2_ws/src/install/img_capture:/home/username/ros2_ws/install/odometry_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.099681] (-) TimerEvent: {}
+[0.200125] (-) TimerEvent: {}
+[0.300638] (-) TimerEvent: {}
+[0.401360] (-) TimerEvent: {}
+[0.492008] (custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.501470] (-) TimerEvent: {}
+[0.601854] (-) TimerEvent: {}
+[0.702337] (-) TimerEvent: {}
+[0.802807] (-) TimerEvent: {}
+[0.877621] (custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.902976] (-) TimerEvent: {}
+[0.909076] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.003093] (-) TimerEvent: {}
+[1.081974] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.098764] (custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.099666] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.100690] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.103166] (-) TimerEvent: {}
+[1.115460] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.203310] (-) TimerEvent: {}
+[1.303780] (-) TimerEvent: {}
+[1.312988] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.341379] (custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.341838] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.342490] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.349584] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.403874] (-) TimerEvent: {}
+[1.504300] (-) TimerEvent: {}
+[1.597445] (custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.604464] (-) TimerEvent: {}
+[1.704960] (-) TimerEvent: {}
+[1.772004] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.785209] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.805044] (-) TimerEvent: {}
+[1.862523] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.905160] (-) TimerEvent: {}
+[1.936823] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.005268] (-) TimerEvent: {}
+[2.105671] (-) TimerEvent: {}
+[2.206114] (-) TimerEvent: {}
+[2.306502] (-) TimerEvent: {}
+[2.406972] (-) TimerEvent: {}
+[2.496554] (custom_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):\n'}
+[2.497012] (custom_msgs) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[2.497141] (custom_msgs) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[2.497237] (custom_msgs) StderrLine: {'line': b'  package.xml\n'}
+[2.497333] (custom_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.497426] (custom_msgs) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[2.497512] (custom_msgs) StderrLine: {'line': b'\n'}
+[2.497601] (custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.497771] (custom_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.507103] (-) TimerEvent: {}
+[2.508982] (custom_msgs) CommandEnded: {'returncode': 1}
+[2.554254] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 1}
+[2.565976] (-) EventReactorShutdown: {}
